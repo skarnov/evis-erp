@@ -1,0 +1,3 @@
+<img src="<?php echo base_url() . $select_employee->employee_image; ?>" style="height:240px; width:320px;" />
+<br/><br/><label>Name: <?php echo $select_employee->employee_name; ?><br/> <span style="color:red">Salary: <?php echo $select_employee->employee_salary; ?><br/> Due: <?php echo $select_employee->employee_salary_due; ?></span><br/> Designation: <?php echo $select_employee->employee_designation; ?><br/> Office Number: <?php echo $select_employee->employee_office_number; ?><br/> Personal Number: <?php echo $select_employee->employee_mobile_number; ?><br/> Employee Join Date: <?php echo $select_employee->employee_join_date; ?></label>
+<input type="hidden" id="employee_salary_due" onFocus="startCalc();" value="<?php echo $select_employee->employee_salary_due; ?>">
